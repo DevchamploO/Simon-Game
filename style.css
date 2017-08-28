@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+html, body{
+  background:#e74c3c;
+}
+
+.sqr{
+  width: 200px;
+  height: 200px;
+  margin:10px;
+  display: inline-block;
+}
+
+
+
+#wrapper{
+  margin-top:200px;
+  position:relative;
+  width:446px;
+  background:#333;
+  border-radius:100%;
+  padding:20px;
+  margin: 0 auto;
+}
+
+#inner-wrapper{
+  position:absolute;
+  width:220px;
+  height:220px;
+  background:#ecf0f1;
+  border:20px solid #333;
+  border-radius:100%;
+  top:24%;
+  left:23%;
+  overflow:hidden;
+}
+
+#one{
+  border-top-left-radius:100%;
+  background:#27ae60;
+}
+
+#two{
+  border-top-right-radius:100%;
+  background:#c0392b;
+}
+
+#three{
+  border-bottom-left-radius:100%;
+  background:#f39c12;
+}
+
+#four{
+  border-bottom-right-radius:100%;
+  background:#2980b9;
+}
+
+#top-half{
+  background:rgba(0,0,0,0.4);
+  width:100%;
+  height:100px;
+  position:relative;
+  text-align: center;
+}
+
+#screen{
+  background:rgba(150, 40, 27, 0.4);
+  width:70px;
+  height:60px;
+  margin:0 auto;
+  position:absolute;
+  left:75px;
+  top:20px;
+  border-radius:10%;
+  font-size:50px;
+  color:rgba(150, 0, 0, 0.3);
+  font-family: 'VT323', monospace;
+}
+
+.btn{
+  width:30px;
+  height:30px;
+  border-radius:100%;
+  display:inline-block;
+  margin:10px;
+}
+
+#bottom-half{
+  position:relative;
+  width:100%;
+  height:100px;
+  text-align:center;
+  font-size: 14px;
+  padding-top:15px;
+}
+
+.power{
+  background:red;
+}
+
+.start{
+  background:#2ecc71;
+}
+
+.strict{
+  background:#1abc9c;
+}
+
+#one.light, #one:active{
+  background: #2ecc71;
+  box-shadow: 0px 0px 2px 2px rgba(46, 204, 113,1.0);
+}
+
+#two.light, #two:active{
+  background: #e74c3c;
+  box-shadow: 0px 0px 2px 2px rgba(231, 76, 60,1.0);
+
+}
+
+#three.light, #three:active{
+  background: #f1c40f;
+  box-shadow: 0px 0px 2px 2px rgba(241, 196, 15,1.0);
+}
+
+#four.light, #four:active{
+  background: #3498db;
+  box-shadow: 0px 0px 2px 2px rgba(52, 152, 219,1.0);
+}
